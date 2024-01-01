@@ -1,0 +1,46 @@
+<!-- <html lang="en">
+<head>
+   
+    <title>checking</title>
+</head>
+<body>
+
+    <h1 id="check"> Hi nanba</h1>
+    <button onclick="myfunction()"> TRY</button>
+
+
+    <script>
+        function myfunction(){
+
+       document.getElementById("check").innerHTML= "Hello";
+
+
+        }
+
+   
+
+    </script>
+    
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Sample Page</title>
+</head>
+<body>
+
+<input type="text" id="inputName" placeholder="Enter your name">
+<button onclick="myfunction()">Update Label</button>
+<p id="labelname">Name will appear here.</p>
+
+<script>
+    function myfunction() {
+        var a = document.getElementById("inputName").value;
+        document.getElementById("labelname").innerHTML = a;
+    }
+</script>
+
+</body>
+</html>
