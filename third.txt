@@ -1,0 +1,19 @@
+
+<html lang="en">
+<head>
+    
+    <title> lerning js</title>
+</head>
+<body>
+<h3 class="prompt"> walthukal nanba</h3>
+    <script>
+        var person = Number(prompt("please enter your marks"))
+
+        if (person!=null){
+      document.querySelector(".prompt").innerHTML="hello"+ "  " + person;
+      
+        }
+    </script>
+    
+</body>
+</html>
